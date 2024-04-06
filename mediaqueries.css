@@ -1,0 +1,168 @@
+@media screen and (max-width:1400px){
+  #profile{
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers{
+    flex-wrap: wrap;
+  }
+
+}
+
+@media screen and (max-width:1200px){
+  #desktop-nav{
+    display: none;
+  }
+  #hamburger-nav{
+    display: flex;
+  }
+  #experience, .experience-details-container{
+    margin-top: 2rem;
+  }
+  #profile, .section-container{
+    display: block;
+  }
+  .arrow{
+    display: none;
+  }
+  section, .section-container{
+    height: fit-content;
+  }
+  section{
+    margin: 0 5%;
+  }
+  .section-pic-container{
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers{
+    margin: 0;
+  }
+}
+@media screen and (max-width:550px){
+  #contact, footer{
+    height: 40vh;
+  }
+  #profile{
+    height: 85vh;
+    margin-bottom: 0;
+  }
+  article{
+    font-size: 1rem;
+  }
+  footer nav{
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers, .contact-info-upper-container, .btn-container{
+    flex-wrap: wrap;
+  }
+  .contact-info-container{
+    margin: 0;
+  }
+  .contact-info-container p, .nav-links li a{
+    font-size: 1rem;
+  }
+  .logo{
+    font-size: 1.5rem;
+  }
+  .nav-links{
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section-pic-container{
+    width: auto;
+    height: 46vh;
+    justify-content: center;
+  }
+  .section__text__p2{
+    font-size: 1.25rem;
+  }
+  .title{
+    font-size: 2rem;
+  }
+  .text-container{
+    text-align: justify;
+  }
+}
+
+
+/* mediaqueries.css */
+
+/* Responsive adjustments for iPhone SE */
+@media only screen and (max-width: 320px) {
+  /* Adjustments for navigation */
+  #desktop-nav {
+      display: none;
+  }
+
+  #hamburger-nav {
+      display: block;
+  }
+
+  .nav-links {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .hamburger-menu {
+      display: none;
+  }
+
+  /* Adjustments for profile section */
+  #profile .section__text {
+      text-align: center;
+      margin-bottom: 20px; /* Add margin to the bottom */
+  }
+
+  #profile .btn-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+  }
+
+  #socials-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      margin-bottom: 20px; /* Add margin to the bottom */
+  }
+
+  /* Adjustments for about section */
+  #about .section-container {
+      flex-direction: column-reverse;
+  }
+
+  .about-details-container {
+      flex-direction: column;
+  }
+
+  .about-pic {
+      width: 100%;
+  }
+
+  /* Adjustments for experience section */
+  #experience .article-container {
+      flex-direction: column;
+  }
+
+  /* Adjustments for projects section */
+  #projects .details-containers {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  .project-img {
+      width: 100%;
+  }
+
+  .project-btn {
+      margin-top: 10px;
+  }
+}
